@@ -1,0 +1,38 @@
+var nama ={
+    '1. Abduh  Muhammad' : [
+        'Abduh',
+        'Muhammad',
+        'male',
+        28
+    ],
+    '2. Ahmad Taufik' : [
+        'Ahmad',
+        'Taufik',
+        'male',
+        35
+    ]
+}
+
+function arrayObject (arr){
+    var now = new Date ()
+    var tahun = now.getFullYear()
+}
+
+var orang = [ ['Abduh', 'Muhammad', 'male', 1992], ['Ahmad', 'Taufik', 'male', 1985] ]
+arrayObject (orang) 
+var orang1 = {
+        '1. Abduh  Muhammad' : [
+           'firstName: Abduh',
+           'lastName:  Muhammad',
+           'gender:  male',
+           'age: 28'
+        ],
+        '2. Ahmad Taufik' : [
+           'firstName: Ahmad',
+           'lastName: Taufik',
+           'gender: male',
+           'age:  35'
+        ]
+}
+
+console.log(orang1);
