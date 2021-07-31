@@ -1,0 +1,11 @@
+function luasPersegiPanjang (panjang,lebar,Luas){
+    var hasil = {
+        panjang = 12,
+        lebar = 5,
+        tinggi = 6,
+        Luas = null
+    }
+    console.log(hasil);
+}
+var hasil = luasPersegiPanjang(12 * 5 * 6)
+console.log(hasil);
